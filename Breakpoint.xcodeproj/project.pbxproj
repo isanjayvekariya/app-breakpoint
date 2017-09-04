@@ -56,15 +56,55 @@
 		3CEE5F221F5CCE4500D33532 /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				3CEE5F3B1F5CCED000D33532 /* Services */,
+				3CEE5F3A1F5CCEA500D33532 /* Extensions */,
+				3CEE5F391F5CCE9F00D33532 /* Model */,
+				3CEE5F381F5CCE9900D33532 /* View */,
+				3CEE5F371F5CCE8F00D33532 /* Controller */,
 				3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */,
-				3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */,
-				3CEE5F271F5CCE4500D33532 /* SecondViewController.swift */,
 				3CEE5F291F5CCE4500D33532 /* Main.storyboard */,
 				3CEE5F2C1F5CCE4500D33532 /* Assets.xcassets */,
 				3CEE5F2E1F5CCE4500D33532 /* LaunchScreen.storyboard */,
 				3CEE5F311F5CCE4500D33532 /* Info.plist */,
 			);
 			path = Breakpoint;
+			sourceTree = "<group>";
+		};
+		3CEE5F371F5CCE8F00D33532 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */,
+				3CEE5F271F5CCE4500D33532 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CEE5F381F5CCE9900D33532 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CEE5F391F5CCE9F00D33532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CEE5F3A1F5CCEA500D33532 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CEE5F3B1F5CCED000D33532 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
