@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2CCE5C4DE37A126EC7CA9139 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E38628030D0471517D03D /* Pods_Breakpoint.framework */; };
 		3C28E6F41F5CDB36001F6890 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6F31F5CDB36001F6890 /* DataService.swift */; };
+		3C28E6F61F5CF678001F6890 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6F51F5CF678001F6890 /* AuthVC.swift */; };
+		3C28E6F81F5CF6A5001F6890 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6F71F5CF6A5001F6890 /* LoginVC.swift */; };
+		3C28E6FA1F5CF704001F6890 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6F91F5CF704001F6890 /* InsetTextField.swift */; };
+		3C28E6FC1F5CF857001F6890 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6FB1F5CF857001F6890 /* ShadowView.swift */; };
+		3C28E6FE1F5CFA79001F6890 /* GoogleService-Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CEE5F3C1F5CD26300D33532 /* GoogleService-Info.plist */; };
+		3C28E7001F5CFF35001F6890 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6FF1F5CFF35001F6890 /* AuthService.swift */; };
 		3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */; };
 		3CEE5F261F5CCE4500D33532 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */; };
 		3CEE5F281F5CCE4500D33532 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F271F5CCE4500D33532 /* SecondViewController.swift */; };
@@ -17,10 +23,28 @@
 		3CEE5F301F5CCE4500D33532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE5F2E1F5CCE4500D33532 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C28E6FD1F5CFA6F001F6890 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				3C28E6FE1F5CFA79001F6890 /* GoogleService-Info.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0CAFEAB1BBAFB96DF7906B5B /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		377E38628030D0471517D03D /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C28E6F31F5CDB36001F6890 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3C28E6F51F5CF678001F6890 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		3C28E6F71F5CF6A5001F6890 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3C28E6F91F5CF704001F6890 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		3C28E6FB1F5CF857001F6890 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		3C28E6FF1F5CFF35001F6890 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3CEE5F201F5CCE4500D33532 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +110,8 @@
 			children = (
 				3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */,
 				3CEE5F271F5CCE4500D33532 /* SecondViewController.swift */,
+				3C28E6F51F5CF678001F6890 /* AuthVC.swift */,
+				3C28E6F71F5CF6A5001F6890 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +119,8 @@
 		3CEE5F381F5CCE9900D33532 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C28E6F91F5CF704001F6890 /* InsetTextField.swift */,
+				3C28E6FB1F5CF857001F6890 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3C28E6F31F5CDB36001F6890 /* DataService.swift */,
+				3C28E6FF1F5CFF35001F6890 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -149,6 +178,7 @@
 				3CEE5F1E1F5CCE4500D33532 /* Resources */,
 				BB6588C60E27FB09EF0E1A56 /* [CP] Embed Pods Frameworks */,
 				226EA702A7D20E182492DB50 /* [CP] Copy Pods Resources */,
+				3C28E6FD1F5CFA6F001F6890 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -269,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C28E6F61F5CF678001F6890 /* AuthVC.swift in Sources */,
 				3CEE5F281F5CCE4500D33532 /* SecondViewController.swift in Sources */,
+				3C28E6F81F5CF6A5001F6890 /* LoginVC.swift in Sources */,
+				3C28E7001F5CFF35001F6890 /* AuthService.swift in Sources */,
 				3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */,
+				3C28E6FC1F5CF857001F6890 /* ShadowView.swift in Sources */,
 				3CEE5F261F5CCE4500D33532 /* FirstViewController.swift in Sources */,
+				3C28E6FA1F5CF704001F6890 /* InsetTextField.swift in Sources */,
 				3C28E6F41F5CDB36001F6890 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJU3H3UY7Y;
 				INFOPLIST_FILE = Breakpoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = worldwideinc.Breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJU3H3UY7Y;
 				INFOPLIST_FILE = Breakpoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = worldwideinc.Breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
