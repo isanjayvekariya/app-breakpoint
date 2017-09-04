@@ -43,8 +43,22 @@ class DataService {
         if groupKey != nil {
             // send to group ref
         } else {
-            REF_FEED.childByAutoId().updateChildValues(["content": message, "sendrId": uid])
+            REF_FEED.childByAutoId().updateChildValues(["content": message, "senderId": uid])
             sendComplete(true)
+        }
+    }
+    
+    func getAllFeedMessages(handler: @escaping (_ messages: [Message]) -> ()) {
+        var messageArray = [Message]()
+        REF_FEED.observeSingleEvent(of: .value) { (feedMessageSnapShot) in
+            guard let feedMessageSnapShot = feedMessageSnapShot.children.allObjects as? [DataSnapshot] else { return }
+            for message in feedMessageSnapShot {
+                let content = message.childSnapshot(forPath: "content").value as! String
+                let senderId = message.childSnapshot(forPath: "senderId").value as! String
+                let message = Message(content: content, senderId: senderId)
+                messageArray.append(message)
+            }
+            handler(messageArray) 
         }
     }
 }

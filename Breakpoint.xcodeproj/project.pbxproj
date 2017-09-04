@@ -18,6 +18,8 @@
 		3CAA0AA31F5DD1FF00C4C422 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA0AA21F5DD1FF00C4C422 /* MeVC.swift */; };
 		3CAA0AA71F5DFC2D00C4C422 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA0AA61F5DFC2D00C4C422 /* CreatePostVC.swift */; };
 		3CAA0AA91F5E000E00C4C422 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA0AA81F5E000E00C4C422 /* UIViewExt.swift */; };
+		3CAA0AAB1F5E083800C4C422 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA0AAA1F5E083800C4C422 /* Message.swift */; };
+		3CAA0AAD1F5E0F1200C4C422 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA0AAC1F5E0F1200C4C422 /* FeedCell.swift */; };
 		3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */; };
 		3CEE5F261F5CCE4500D33532 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F251F5CCE4500D33532 /* FeedVC.swift */; };
 		3CEE5F281F5CCE4500D33532 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F271F5CCE4500D33532 /* GroupsVC.swift */; };
@@ -51,6 +53,8 @@
 		3CAA0AA21F5DD1FF00C4C422 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		3CAA0AA61F5DFC2D00C4C422 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		3CAA0AA81F5E000E00C4C422 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3CAA0AAA1F5E083800C4C422 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3CAA0AAC1F5E0F1200C4C422 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		3CEE5F201F5CCE4500D33532 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CEE5F251F5CCE4500D33532 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -129,7 +133,7 @@
 			children = (
 				3C28E6F91F5CF704001F6890 /* InsetTextField.swift */,
 				3C28E6FB1F5CF857001F6890 /* ShadowView.swift */,
-				3CAA0AA81F5E000E00C4C422 /* UIViewExt.swift */,
+				3CAA0AAC1F5E0F1200C4C422 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +141,7 @@
 		3CEE5F391F5CCE9F00D33532 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3CAA0AAA1F5E083800C4C422 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 		3CEE5F3A1F5CCEA500D33532 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3CAA0AA81F5E000E00C4C422 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -315,8 +321,10 @@
 				3C28E6F81F5CF6A5001F6890 /* LoginVC.swift in Sources */,
 				3C28E7001F5CFF35001F6890 /* AuthService.swift in Sources */,
 				3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */,
+				3CAA0AAD1F5E0F1200C4C422 /* FeedCell.swift in Sources */,
 				3C28E6FC1F5CF857001F6890 /* ShadowView.swift in Sources */,
 				3CAA0AA71F5DFC2D00C4C422 /* CreatePostVC.swift in Sources */,
+				3CAA0AAB1F5E083800C4C422 /* Message.swift in Sources */,
 				3CEE5F261F5CCE4500D33532 /* FeedVC.swift in Sources */,
 				3C28E6FA1F5CF704001F6890 /* InsetTextField.swift in Sources */,
 				3C28E6F41F5CDB36001F6890 /* DataService.swift in Sources */,
