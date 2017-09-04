@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CCE5C4DE37A126EC7CA9139 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E38628030D0471517D03D /* Pods_Breakpoint.framework */; };
+		3C28E6F41F5CDB36001F6890 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28E6F31F5CDB36001F6890 /* DataService.swift */; };
 		3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */; };
 		3CEE5F261F5CCE4500D33532 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */; };
 		3CEE5F281F5CCE4500D33532 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE5F271F5CCE4500D33532 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0CAFEAB1BBAFB96DF7906B5B /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		377E38628030D0471517D03D /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C28E6F31F5CDB36001F6890 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		3CEE5F201F5CCE4500D33532 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEE5F231F5CCE4500D33532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CEE5F251F5CCE4500D33532 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		3CEE5F3B1F5CCED000D33532 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3C28E6F31F5CDB36001F6890 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				3CEE5F281F5CCE4500D33532 /* SecondViewController.swift in Sources */,
 				3CEE5F241F5CCE4500D33532 /* AppDelegate.swift in Sources */,
 				3CEE5F261F5CCE4500D33532 /* FirstViewController.swift in Sources */,
+				3C28E6F41F5CDB36001F6890 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
