@@ -299,7 +299,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DzP-qB-dBq">
-                                <rect key="frame" x="0.0" y="122.5" width="375" height="476.5"/>
+                                <rect key="frame" x="0.0" y="122.5" width="375" height="484.5"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="Xh1-I4-N5v" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
@@ -395,7 +395,6 @@
                             <constraint firstItem="Rq0-G7-mVu" firstAttribute="leading" secondItem="PM3-YM-a75" secondAttribute="leading" constant="20" id="0v7-ys-fGt"/>
                             <constraint firstItem="Cmf-BQ-kIP" firstAttribute="leading" secondItem="PM3-YM-a75" secondAttribute="leading" id="3PT-At-nBK"/>
                             <constraint firstItem="PM3-YM-a75" firstAttribute="trailing" secondItem="mqU-QF-tfb" secondAttribute="trailing" id="4As-iw-kFs"/>
-                            <constraint firstItem="mqU-QF-tfb" firstAttribute="top" secondItem="DzP-qB-dBq" secondAttribute="bottom" constant="8" id="6KF-gG-VxW"/>
                             <constraint firstItem="DzP-qB-dBq" firstAttribute="top" secondItem="Rq0-G7-mVu" secondAttribute="bottom" constant="8" id="7gK-NM-G7S"/>
                             <constraint firstItem="DzP-qB-dBq" firstAttribute="leading" secondItem="PM3-YM-a75" secondAttribute="leading" id="Asd-cP-3NK"/>
                             <constraint firstItem="PM3-YM-a75" firstAttribute="trailing" secondItem="Rq0-G7-mVu" secondAttribute="trailing" constant="20" id="BiY-ZR-vfK"/>
@@ -408,6 +407,7 @@
                             <constraint firstItem="mqU-QF-tfb" firstAttribute="leading" secondItem="PM3-YM-a75" secondAttribute="leading" id="q2K-CF-I4G"/>
                             <constraint firstItem="Cmf-BQ-kIP" firstAttribute="leading" secondItem="Udi-bW-6FB" secondAttribute="leading" id="rPl-Iq-5UW"/>
                             <constraint firstItem="mqU-QF-tfb" firstAttribute="bottom" secondItem="PM3-YM-a75" secondAttribute="bottom" id="rTx-8Q-qNg"/>
+                            <constraint firstItem="mqU-QF-tfb" firstAttribute="top" secondItem="DzP-qB-dBq" secondAttribute="bottom" id="xNy-6o-Toz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PM3-YM-a75"/>
                     </view>
@@ -415,6 +415,7 @@
                         <outlet property="groupTitleLbl" destination="wWF-2J-vOz" id="Z0K-O8-k5p"/>
                         <outlet property="membersLbl" destination="Rq0-G7-mVu" id="8sz-0X-33E"/>
                         <outlet property="messageTextField" destination="7hu-69-NdD" id="imq-a8-LPZ"/>
+                        <outlet property="sendBtn" destination="i4b-CH-7hM" id="a4A-kT-loI"/>
                         <outlet property="sendBtnView" destination="mqU-QF-tfb" id="cXo-8p-0h4"/>
                         <outlet property="tableView" destination="DzP-qB-dBq" id="bKu-Bm-mVE"/>
                     </connections>
